@@ -1,0 +1,247 @@
+@font-face {
+    font-family: newfont;
+    src: url(fonts/lobster-Regular.ttf);
+}
+@font-face {
+    font-family: newfontlight;
+    src: url(fonts/OpenSansCondensed-Light.ttf);
+}
+@font-face {
+    font-family: newfontbold;
+    src: url(fonts/OpenSansCondensed-Bold.ttf);
+}
+* {padding: 0;
+margin: 0;
+text-decoration: none;
+list-style: none;
+box-sizing: border-box;
+}
+body {
+    font-family: newfontlight;
+    align-content: center;
+}
+nav {
+    background: #707070;
+    height: 70px;
+    width: 100%;
+    position: fixed;
+}
+label.logo {
+    color: black;
+    font-size: 30px;
+    line-height: 70px;
+    font-weight: bold;
+    padding: 0 80px;
+    font-family: newfont;
+}
+nav ul {
+    float: right;
+    margin-right: 20px;
+    font-family: newfontbold;
+}
+nav ul li {
+    display: inline-block;
+    margin-right: 0 5px;
+    line-height: 70px;
+}
+nav ul li a {
+    color: black;
+    text-transform: uppercase;
+    font-size: 17px;
+    padding: 5px 13px;
+    border-radius: 4px;
+}
+a:hover {
+    background-color: #ababab;
+}
+a:active {
+    background-color: white;
+}
+section {
+    background: url(fonts/pic.jpg) no-repeat;
+    background-size: cover;
+    height: calc(100vh - 80px);
+}
+.abc {
+    color: white;
+    padding: 200px 200px;
+    font-size: xx-large;
+    line-height: 60px;
+    font-family: sans-serif;
+
+}
+div.abc a {
+    color: white;
+    border: 1px solid white;
+    padding: 10px 6px;
+    border-radius: 4px;
+    margin: 30px;
+}
+div.abc a:hover {
+    background-color: white;
+    color: black; 
+}
+.pages {
+    text-align: center;
+    font-size: xx-large;
+    padding: 70px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+span {
+    font-weight: bolder;
+}
+.image {
+    text-align: center;
+    height: calc(10vh - 8px);
+    padding-bottom: 100px;
+}
+.baap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px;
+}
+.bache {
+    flex-basis: 300px;
+    padding: 10 20px;
+    text-align: center;
+    margin: 20px;
+}
+@media (min-width: 960px) {
+    .baap {
+        margin: 0 100px;
+    }
+}
+.bache:hover {
+    color: yellowgreen;
+}
+.bachehead:hover {
+    font-size: x-large;
+}
+.main-container {
+    display: flex;
+    color: white;
+    justify-content: center;
+    flex-wrap: wrap;
+
+}
+
+.container {
+    padding: 5px 10px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.headtour {
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-family: newfontbold;
+    padding: 20px 50px;
+    background-color: #337ab7;
+
+}
+
+.tabledata {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    background-color: rgba(51,122,183,0.8);
+
+}
+
+.tourcontact {
+    align-items: center;
+    justify-content: center;
+    background-color: #337ab7;
+    padding: 15px 80px;
+    line-height: 50px;
+    font-family: newfontbold;
+    color: white;
+}
+.tourcontact:hover {
+    background-color: yellow;
+    color: black;
+}
+
+.color-one {
+    background-color:#4caf50
+}
+.color-two {
+    background-color:#ff9800;
+    padding: 20px 27px;
+}
+.color-tree {
+    background-color:#009688;
+    padding: 20px 27px;
+}
+.data-ctwo {
+    background-color: rgba(255,152,0,0.7);
+}
+.data-cone {
+    background-color: rgba(76,175,80,0.7);
+}
+.data-ctree {
+    background-color: rgba(0,150,136,0.7);
+}
+.con-one {
+    background-color:#4caf50;
+}
+.con-two {
+    background-color:#ff9800;
+}
+.con-tree {
+    background-color:#009688;
+}
+.about {
+    padding: 0 200px;
+}
+#qwe {
+    letter-spacing: 1px;
+    font-family: newfont;
+}
+h2 {
+    color: darkred;
+    letter-spacing: 1px;
+}
+.tick {
+    color: green;
+}
+.hello {
+    color: rgba(255,152,0,0.7);
+}
+iframe {
+    width: 100%;
+    height: 400px;
+}
+.visitbusiness {
+    display: flex;
+    align-items: center;
+}
+.visit {
+    flex: 1;
+    padding: 0 100px;
+}
+.business {
+    flex: 1;
+    padding: 0 100px;
+}
+footer {
+    background: black;
+    height: 70px;
+    width: 100%;
+    line-height: 70px;
+    padding: 0 80px;
+    display: flex;
+    color: white;
+}
+#copy {
+    flex: 1;
+}
+#deve {
+    flex: 1;
+}
+
